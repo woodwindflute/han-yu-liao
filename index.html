@@ -10,12 +10,31 @@
         ul { padding-left: 20px; }
         a { color: #1a0dab; text-decoration: none; }
         a:hover { text-decoration: underline; }
+        /* Updated styles for the header */
+        .header {
+            display: flex; /* Use flexbox for horizontal arrangement */
+            align-items: center; /* Vertically align items in the middle */
+            gap: 20px; /* Add some space between the text and the image */
+        }
+        .profile-info {
+            flex-grow: 1; /* Allow the info section to take up available space */
+        }
+        .profile-pic {
+            width: 170px;
+            height: auto;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
-    <h1>Han-Yu Liao</h1>
-    <p>Email: <a href="mailto:kelly890925@gmail.com">kelly890925@gmail.com</a><br>
-       GitHub: <a href="https://github.com/woodwindflute" target="_blank">github.com/woodwindflute</a></p>
+    <div class="header">
+        <div class="profile-info">
+            <h1>Han-Yu Liao</h1>
+            <p>Email: <a href="mailto:kelly890925@gmail.com">kelly890925@gmail.com</a><br>
+                GitHub: <a href="https://github.com/woodwindflute" target="_blank">github.com/woodwindflute</a></p>
+        </div>
+        <img src="20241029_082034.jpg" alt="Han-Yu Liao" class="profile-pic">
+    </div>
 
     <h2>Education</h2>
     <ul>
@@ -37,12 +56,9 @@
 
     <h2>Publications</h2>
     <ul>
-        <li><b>AdaGray: An Energy-Efficient Adaptive Gray-Code Strategy for QLC Flash-Memory Storage Systems</b><br>
-        H.-Y. Liao et al., ISLPED 2025</li>
-        <li><b>CellRejuvo: Rescuing the Aging of 3D NAND Flash Cells with Dense-Sparse Cell Reprogramming</b><br>
-        H.-Y. Liao et al., ICCAD 2024</li>
-        <li><b>Read Retry Mechanism for 3D NAND Flash Memory: Observations, Analyses, and Solutions</b><br>
-        H.-Y. Liao et al., NVMSA 2024</li>
+        <li><b>Han-Yu Liao</b>, Jen-Wei Hsieh, Yi-Shen Chen, Chang-Lin Tsai, and Yuan-Hao Chang, "AdaGray: An Energy-Efficient Adaptive Gray-Code Strategy for QLC Flash-Memory Storage Systems," ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED), Iceland, Aug. 6-8, 2025. <b>(Top Conference)</b></li>
+        <li><b>Han-Yu Liao</b>, Yi-Shen Chen, Jen-Wei Hsieh, Yuan-Hao Chang, Hung-Pin Chen, "CellRejuvo: Rescuing the Aging of 3D NAND Flash Cells with Dense-Sparse Cell Reprogramming," ACM/IEEE International Conference on Computer-Aided Design (ICCAD), Newark, New Jersey, USA, Oct. 27-31, 2024. <b>(Top Conference)</b></li>
+        <li><b>Han-Yu Liao</b>, Wen-Ling Hsu, Jen-Wei Hsieh, and Hung-Pin Chen, August 21-23, 2024, "Read Retry Mechanism for 3D NAND Flash Memory: Observations, Analyses, and Solutions," the 13th IEEE Non-Volatile Memory Systems and Applications Symposium (IEEE NVMSA 2024), Sokcho, Korea, pp.49-54.</li>
     </ul>
 </body>
 </html>
